@@ -1,0 +1,114 @@
+:root {
+    --background: rgb(50, 179, 136); 
+  }
+
+
+
+/* @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+} */
+
+
+body {
+    margin: 0;
+    padding: 0px;
+    background: linear-gradient(to bottom, #000, var(--background)); 
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bar {
+    color: red;
+    text-decoration: none;
+}
+
+.nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: brown;
+    font-weight: bold;
+}
+
+.name {
+    color: red;
+    text-shadow: blueviolet;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.ul-nav {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.ul-nav li {
+    margin-left: 20px;
+}
+
+.bar:hover {
+    color: #7700B3;
+    border-bottom: 2px solid #27AE60;
+}
+
+.contenedor {
+    width: 700px;
+    /* Ancho deseado del div */
+    height: 450px;
+    /* Altura deseada del div */
+    background-color: #ccc;
+    /* Color de fondo del div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: block; */
+}
+
+.carousel-inner img {
+    width: 700px;
+    /* Ancho deseado para todas las imágenes */
+    height: 450px;
+    /* Altura deseada para todas las imágenes */
+    object-fit: cover;
+    /* Escalar la imagen para llenar el contenedor sin distorsión */
+    
+}
+
+.lugares {
+    margin-bottom: 20px;
+    margin-top: 600px;
+}
+
+.texto {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
