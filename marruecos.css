@@ -46,12 +46,15 @@ button.btn.btn-secondary.dropdown-toggle {
 }
 
 img {
-    width: 450px;
-    /* Ancho deseado para todas las imágenes */
-    height: 350px;
+    width: 250px;
+    height: 250px;
     /* Altura deseada para todas las imágenes */
     object-fit: cover;
     /* Escalar la imagen para llenar el contenedor sin distorsión */
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .lugares {
