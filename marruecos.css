@@ -37,13 +37,18 @@ button.btn.btn-secondary.dropdown-toggle {
     font-size: x-large;
 }
 
-.row.row-cols-1.row-cols-md-2.g-4 {
+.row.row-cols-1.row-cols-md-4.g-4 {
     padding-top: 80px;
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 5px;
     justify-content: center;
 }
+
+.card {
+    
+  }
+  
 
 img {
     width: 250px;
@@ -66,7 +71,8 @@ img {
 }
 
 .tips {
-    padding: 20px;
+    margin-top: 40px;
+    padding: 65px 20px ;
 }
 
 label {
