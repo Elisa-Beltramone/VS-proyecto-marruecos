@@ -10,6 +10,7 @@ body {
     padding: 0px;
     background-color: #882121;
     color: antiquewhite;
+    min-height: 100vh; 
 }
 
 header {
@@ -45,7 +46,8 @@ button.btn.btn-secondary.dropdown-toggle {
     justify-content: center;
 }
 
-.card {
+.col {
+    max-height: 400px;
     
   }
   
@@ -64,6 +66,7 @@ img {
 
 .lugares {
    margin: 20px;
+   padding-top: 60px;
 }
 
 .texto {
