@@ -1,9 +1,10 @@
-/* @media (max-width: 768px) {
-    body {
-        font-size: 14px;
+@media (max-width: 768px) {
+    .col {
+           margin: 60px;
+           
     }
 
-} */
+}
 
 body {
     margin: 0;
@@ -42,14 +43,17 @@ button.btn.btn-secondary.dropdown-toggle {
     padding-top: 80px;
     display: flex;
     align-items: center;
-    margin: 5px;
+    margin: 10px;
     justify-content: center;
+    
 }
 
 .col {
     max-height: 400px;
-    
+    padding: 10px;
+ 
   }
+
   
 
 img {
