@@ -1,9 +1,7 @@
 @media (max-width: 768px) {
     .col {
-           margin: 60px;
-           
+           margin: 40px;     
     }
-
 }
 
 body {
@@ -49,12 +47,13 @@ button.btn.btn-secondary.dropdown-toggle {
 }
 
 .col {
-    max-height: 400px;
+    height: 450px;
     padding: 10px;
- 
   }
 
-  
+  .card {
+    height: 520px;
+  }
 
 img {
     width: 250px;
@@ -64,8 +63,13 @@ img {
     /* Escalar la imagen para llenar el contenedor sin distorsión */
 }
 
+.btn.btn-primary {
+   
+    text-align: center;
+}
+
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .lugares {
@@ -95,4 +99,11 @@ label {
 footer {
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* Partes de las páginas de ciudades */
+
+.titulo {
+    margin-top: 60px;
+   padding: 20px;
 }
